@@ -1,0 +1,81 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 2rem;
+  
+}
+
+.header__nav li {
+  list-style-type: none;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__nav a:visited {
+  color: black;
+}
+
+.flex__nav li {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+img {
+  border-radius: 15%;
+  padding-top: 0.5rem;
+}
+
+
+.h1__user--index {
+  font-size: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.h2__text {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
